@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b9f9ff;
+  border: none; /* 테두리를 제거합니다. */
+  margin: 0; /* 여백을 제거합니다. */
+  padding: 0; /* 패딩을 제거합니다. */
+}
+
+.Header-left {
+  display: flex;
+  width: 50%;
+  margin-left: 3%;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.page-name {
+  cursor: pointer;
+  font-size: 28px;
+}
+.Head-menu {
+  display: flex;
+  margin-left: 3%;
+}
+
+.mancity-icon {
+  display: flex;
+  margin-left: 30%;
+}
+.Header-right {
+  width: 34%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.right-menu {
+  display: flex;
+  margin-right: 5%;
+}
+.icon {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "NPSfontBold";
+}
+
+.modal-content {
+  font-family: "NPSfontBold";
+  box-sizing: border-box;
+  width: 30%;
+  height: 500px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.login-form {
+  width: 100%;
+  height: 60%;
+}
+
+.login-text {
+  width: 100%;
+  margin: 5% 0;
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: "NPSfontBold";
+  }
+  p {
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 5px 0;
+    font-family: "NPSfontBold";
+  }
+}
+
+.modal-button {
+  margin-top: 10%;
+
+  button {
+    width: 100%;
+    height: 50px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b9f9ff;
+    border-radius: 5px;
+    border: 1px solid #b9f9ff;
+    cursor: pointer;
+  }
+}
+.modal-menu {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+  margin-top: 10%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modal-join {
+  a {
+    color: #b9f9ff;
+
+    font-size: 15px;
+    margin: 10px;
+  }
+}
+
+.join {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.join-form {
+  width: 100%;
+  height: 60%;
+}
+
+.join-text {
+  width: 100%;
+  margin: 10px 0;
+  margin-bottom: 4%;
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: "NPSfontBold";
+  }
+  p {
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 5px 0;
+    font-family: "NPSfontBold";
+  }
+}
+
+.modal-joinbutton {
+  button {
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b9f9ff;
+    border-radius: 5px;
+    border: 1px solid #b9f9ff;
+    cursor: pointer;
+  }
+}
+.modal-joinbutton {
+  button {
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b9f9ff;
+    border-radius: 5px;
+    border: 1px solid #b9f9ff;
+    cursor: pointer;
+  }
+}
+.join-backButton {
+  button {
+    margin-top: 3%;
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b0b0b0;
+    border-radius: 5px;
+    border: 1px solid #b0b0b0;
+    cursor: pointer;
+  }
+}
+
+.password {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.pw-text {
+  width: 100%;
+  margin: 10px 0;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-family: "NPSfontBold";
+  }
+  p {
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 5px 0;
+    font-family: "NPSfontBold";
+  }
+}
+.modal-backButton {
+  button {
+    margin-top: 10%;
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b9f9ff;
+    border-radius: 5px;
+    border: 1px solid #b9f9ff;
+    cursor: pointer;
+  }
+}
+
+.pw-backButton {
+  button {
+    margin-top: 3%;
+    width: 100%;
+    height: 40px;
+    font-family: "NPSfontBold";
+    color: white;
+    background: #b0b0b0;
+    border-radius: 5px;
+    border: 1px solid #b0b0b0;
+    cursor: pointer;
+  }
+}

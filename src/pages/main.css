@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* 화면 너비 초과 방지 */
+}
+
+.Main-Images {
+  width: 100%;
+  height: 80px;
+}
